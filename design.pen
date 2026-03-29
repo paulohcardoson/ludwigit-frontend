@@ -1,0 +1,528 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "totNU",
+      "x": 900,
+      "y": 0,
+      "name": "Ludwigit - URL Shortener",
+      "theme": {
+        "X:Accent": "Green"
+      },
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "radial",
+        "enabled": true,
+        "rotation": 0,
+        "size": {
+          "width": 1,
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FAFAFA",
+            "position": 0
+          },
+          {
+            "color": "#F0F7F0",
+            "position": 0.4
+          },
+          {
+            "color": "#E8F1E8",
+            "position": 0.7
+          },
+          {
+            "color": "#DFF0DF",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "4Pqxm",
+          "name": "Top Ad Banner",
+          "width": "fill_container",
+          "height": 70,
+          "fill": {
+            "type": "color",
+            "color": "#00000000",
+            "enabled": false
+          },
+          "layout": "vertical",
+          "gap": 4,
+          "padding": [
+            8,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "45tms",
+              "name": "adLabel",
+              "fill": "#AAAAAA",
+              "content": "Ad",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "y3THW",
+              "name": "bannerPlaceholder",
+              "width": 728,
+              "height": 50,
+              "fill": "#F5F5F5",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BIIso",
+                  "name": "bannerText",
+                  "fill": "#AAAAAA",
+                  "content": "Ad",
+                  "fontFamily": "Inter",
+                  "fontSize": 12
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "0kRC2",
+          "name": "Main Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "DULLP",
+              "name": "Center Column",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eth6F",
+                  "name": "Logo Area",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "group",
+                      "id": "mQPlZ",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "Ehyjq",
+                          "x": 34.56359088114914,
+                          "y": 22.56591796875,
+                          "geometry": "M0 20l120-20-50 50-70-30z",
+                          "fill": "#D4F7D6",
+                          "width": 31.90485312106091,
+                          "height": 12.53662109374999,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#D4F7D6"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "eQQkF",
+                          "x": 23.928639840795768,
+                          "y": 27.58056640625,
+                          "geometry": "M0 80l40-80 70 30-110 50z",
+                          "fill": "#A4EBAA",
+                          "width": 29.246115360972507,
+                          "height": 20.05859374999998,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#A4EBAA"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "nhFSo",
+                          "x": 53.17475520176845,
+                          "y": 22.56591796875,
+                          "geometry": "M50 0l60 80-110-30 50-50z",
+                          "fill": "#68CF73",
+                          "width": 29.246115360972507,
+                          "height": 20.058593749999986,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#68CF73"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "OuenK",
+                          "x": 23.928639840795768,
+                          "y": 35.1025390625,
+                          "geometry": "M0 50l110-50-20 110-90-60z",
+                          "fill": "#76D67F",
+                          "width": 29.246115360972507,
+                          "height": 27.58056640624998,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#76D67F"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "UF7HX",
+                          "x": 47.857279681591535,
+                          "y": 35.1025390625,
+                          "geometry": "M20 0l50 90-70 20 20-110z",
+                          "fill": "#53C25D",
+                          "width": 18.611164320618872,
+                          "height": 27.58056640624998,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#53C25D"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "Ws0G8",
+                          "x": 53.17475520176845,
+                          "y": 35.1025390625,
+                          "geometry": "M110 30l-60 60-50-90 110 30z",
+                          "fill": "#46AD50",
+                          "width": 29.246115360972507,
+                          "height": 22.565917968749982,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#46AD50"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "At6b1",
+                          "x": 66.46844400221016,
+                          "y": 42.62451171875,
+                          "geometry": "M60 0l-40 160-20-100 60-60z",
+                          "fill": "#2A8032",
+                          "width": 15.952426560530455,
+                          "height": 40.117187499999964,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#2A8032"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "YNaLe",
+                          "x": 47.857279681591535,
+                          "y": 57.66845703125,
+                          "geometry": "M90 100l-90-80 70-20 20 100z",
+                          "fill": "#1C5E22",
+                          "width": 23.928639840795693,
+                          "height": 25.07324218749998,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#1C5E22"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "VRLi9",
+                          "x": 34.56359088114914,
+                          "y": 62.68310546875,
+                          "geometry": "M140 80l-140-20 50-60 90 80z",
+                          "fill": "#23732A",
+                          "width": 37.22232864123774,
+                          "height": 20.058593749999986,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#23732A"
+                          }
+                        },
+                        {
+                          "type": "path",
+                          "id": "lbtaG",
+                          "x": 23.928639840795768,
+                          "y": 47.63916015625,
+                          "geometry": "M40 120l-40-120 90 60-50 60z",
+                          "fill": "#5CB864",
+                          "width": 23.92863984079569,
+                          "height": 30.087890624999968,
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 0.5,
+                            "fill": "#5CB864"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "eurAp",
+                      "name": "appTitle",
+                      "fill": "$X:--foreground",
+                      "content": "Ludwigit",
+                      "fontFamily": "Inter",
+                      "fontSize": 32,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "vkpD4",
+                  "name": "tagline",
+                  "fill": "#c4c4c4ff",
+                  "content": "A straight to the point URL shorterner.\nNo account, no payment, no tricks.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "dX9xe",
+                  "name": "URL Input Row",
+                  "width": 480,
+                  "gap": 8,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "id": "liUnR",
+                      "type": "ref",
+                      "ref": "X:fEUdI",
+                      "width": "fill_container",
+                      "name": "urlInput",
+                      "x": 0,
+                      "y": 0,
+                      "descendants": {
+                        "X:i0Z3E": {
+                          "width": "fill_container"
+                        },
+                        "X:SDRKn": {
+                          "content": "Paste your long URL here..."
+                        }
+                      }
+                    },
+                    {
+                      "id": "JEY4a",
+                      "type": "ref",
+                      "ref": "X:VSnC2",
+                      "name": "shortenBtn",
+                      "width": "fit_content",
+                      "x": 395,
+                      "y": 4,
+                      "descendants": {
+                        "X:8jVfJ": {
+                          "enabled": false
+                        },
+                        "X:8tnXG": {
+                          "content": "Shorten"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "t5G6w",
+                  "type": "ref",
+                  "ref": "X:pcGlv",
+                  "width": 480,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "enabled": false,
+                    "color": "#000000"
+                  },
+                  "name": "resultCard",
+                  "x": 480,
+                  "y": 451.087890625,
+                  "height": "fit_content",
+                  "layout": "vertical",
+                  "descendants": {
+                    "X:CgJv7": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "gap": 4,
+                      "x": 0,
+                      "y": 0,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f2Muw",
+                          "name": "headerTitle",
+                          "fill": "$X:--muted-foreground",
+                          "content": "Your shortened link",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    "X:frWPV": {
+                      "width": "fill_container",
+                      "y": 39,
+                      "height": "fit_content",
+                      "padding": [
+                        0,
+                        16,
+                        12,
+                        16
+                      ],
+                      "gap": 8,
+                      "layout": "horizontal",
+                      "alignItems": "center",
+                      "justifyContent": "space_between",
+                      "x": 0,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m5143",
+                          "name": "linkText",
+                          "fill": "$X:--foreground",
+                          "content": "ludwigit.co/abc123",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "id": "gszH2",
+                          "type": "ref",
+                          "ref": "X:e8v1X",
+                          "name": "copyBtn",
+                          "width": "fit_content",
+                          "x": 370,
+                          "y": 0,
+                          "descendants": {
+                            "X:soROh": {
+                              "enabled": true
+                            },
+                            "X:SlKX1": {
+                              "iconFontName": "copy"
+                            },
+                            "X:Tr3Fv": {
+                              "content": "Copy"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "X:bvhSM": {
+                      "width": "fill_container(480)",
+                      "y": 87,
+                      "enabled": false,
+                      "height": 68,
+                      "x": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QqDi4",
+          "name": "Bottom Ad Banner",
+          "width": "fill_container",
+          "height": 70,
+          "fill": {
+            "type": "color",
+            "color": "#00000000",
+            "enabled": false
+          },
+          "layout": "vertical",
+          "gap": 4,
+          "padding": [
+            8,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "GnQ0w",
+              "name": "adLabel",
+              "fill": "#AAAAAA",
+              "content": "Ad",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "lmkDK",
+              "name": "bannerPlaceholder",
+              "width": 728,
+              "height": 50,
+              "fill": "#F5F5F5",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E0E0E0"
+              },
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jFDsG",
+                  "name": "bannerText",
+                  "fill": "#AAAAAA",
+                  "content": "Ad",
+                  "fontFamily": "Inter",
+                  "fontSize": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "X": "pencil:shadcn.lib.pen"
+  }
+}

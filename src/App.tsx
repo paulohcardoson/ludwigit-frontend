@@ -18,19 +18,6 @@ const schema = z.object({
 
 type FormValues = z.infer<typeof schema>;
 
-function AdBanner() {
-	return (
-		<div className="flex flex-col items-center justify-center gap-1 h-[70px] py-2">
-			<span className="text-[10px] font-medium tracking-[2px] text-[#AAAAAA]">
-				Ad
-			</span>
-			<div className="w-[728px] h-[50px] rounded-lg bg-[#F5F5F5] border border-[#E0E0E0] flex items-center justify-center">
-				<span className="text-xs text-[#AAAAAA]">Ad</span>
-			</div>
-		</div>
-	);
-}
-
 function App() {
 	const [, copy] = useCopyToClipboard();
 	const [shortenedUrl, setShortenedUrl] = useState<string | null>(null);
@@ -67,8 +54,6 @@ function App() {
 					"radial-gradient(ellipse at center, #FAFAFA 0%, #F0F7F0 40%, #E8F1E8 70%, #DFF0DF 100%)",
 			}}
 		>
-			<AdBanner />
-
 			{/* Main content */}
 			<div className="flex-1 flex items-center justify-center">
 				<div className="flex flex-col items-center gap-2 w-120">
@@ -152,8 +137,6 @@ function App() {
 					)}
 				</div>
 			</div>
-
-			<AdBanner />
 		</div>
 	);
 }
